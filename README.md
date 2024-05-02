@@ -65,13 +65,18 @@ Download the CS6400.zip files which contains all the files needed for this part.
 
 1. Start with Extracting, transforming and loading the DATA using PDI.
    i. Start PDI(Spoon) using Spoon.bat located in \data-integration\lib folder.
+   
    ii. Once spoon is started, open the transformation: transform_load_data.ktr.
+   
    iii. Run this transformation, this will load perform ETL on the extracted data to load into the online_retail.transaction database created earlier.
 
 3. Now visit the Pentaho User Console on a browser: using the address: localhost:8080/pentaho and login using the default user: admin and password: password.
     i. Define a connection to the mysql database: online_retail via the User console by navigating to manage data sources > new connectiona and fill in the connection details
+   
     ii. Upload the trans.mondrian.xml schema via the manage data sources.
+   
     iii. Upload the zipped file: "CS 6400 Project.zip" file to the server via the user console by navigating to Browse files click on Public folder and then upload.
+   
      This file contains all the BA reports and dashboard on the dataset you can run them by navigating to to Browse files --> Public folder and then click on open to view and explore each report and dashboard.
 
 

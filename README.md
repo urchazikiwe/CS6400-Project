@@ -1,6 +1,6 @@
 # CS6400-Project
 
-Project Proposal for Data Mining of Online Retail Dataset Using Pentaho BI Suite
+INSTRUCTIONS FOR: Project Proposal for Data Mining of Online Retail Dataset Using Pentaho BI Suite
 
 Follow the steps outlined here to be able to replicate this project
 
